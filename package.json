@@ -1,0 +1,21 @@
+{
+	"name": "theme-railscasts",
+	"description": "Railscast Colour Theme",
+	"version": "1.0.0",
+	"publisher": "Paul Olteanu",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Railscasts",
+				"uiTheme": "vs-dark",
+				"path": "./themes/railscasts.tmTheme"
+			}
+		]
+	}
+}
