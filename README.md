@@ -2,4 +2,4 @@
 
 Syntax theme based on the original railscast theme
 
-![railscast theme](http://i.imgur.com/rzPRoBj.png)
+![railscast theme](https://i.imgur.com/Ix4ggNU.png)

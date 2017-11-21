@@ -1,21 +1,22 @@
 {
-	"name": "theme-railscasts",
-	"description": "Railscast Colour Theme",
-	"version": "2.0.0",
-	"publisher": "PaulOlteanu",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Railscasts",
-				"uiTheme": "vs-dark",
-				"path": "./themes/railscasts.tmTheme"
-			}
-		]
-	}
+    "name": "theme-railscasts",
+    "displayName": "Railscasts-Renewed",
+    "description": "Railscasts Colour Theme",
+    "version": "3.0.0",
+    "publisher": "PaulOlteanu",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Railscasts-New",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Railscasts-New-color-theme.json"
+            }
+        ]
+    }
 }
