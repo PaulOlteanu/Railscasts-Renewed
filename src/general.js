@@ -17,17 +17,6 @@ module.exports = {
       }
     },
     {
-      name: "String interpolation",
-      scope: [
-        "constant.character.escaped",
-        "constant.character.escape",
-        "string source",
-      ],
-      settings: {
-        foreground: colors["dark-green"]
-      }
-    },
-    {
       name: 'storage.modifier',
       scope: 'storage.modifier',
       settings: {
@@ -769,10 +758,13 @@ module.exports = {
       scope: [
         'punctuation.definition.template-expression.begin',
         'punctuation.definition.template-expression.end',
-        'punctuation.section.embedded'
+        'punctuation.section.embedded',
+        "constant.character.escaped",
+        "constant.character.escape",
+        "string source",
       ],
       settings: {
-        foreground: colors['purple']
+        foreground: colors['dark-green']
       }
     },
     {
@@ -806,13 +798,6 @@ module.exports = {
     {
       name: 'js class prop',
       scope: ['meta.property.object'],
-      settings: {
-        foreground: colors['red']
-      }
-    },
-    {
-      name: 'js func parameter',
-      scope: ['variable.parameter.function.js'],
       settings: {
         foreground: colors['red']
       }
@@ -883,20 +868,6 @@ module.exports = {
       settings: {
         foreground: colors['light-green']
       }
-    },
-    {
-      name: "language operators like '+', '-' etc",
-      settings: {
-        foreground: colors['red']
-      },
-      scope: ['constant.other.color.rgb-value.xi']
-    },
-    {
-      name: 'elements to dim',
-      settings: {
-        foreground: colors['dark']
-      },
-      scope: ['punctuation.definition.tag.xi']
     },
     {
       name: 'C++/C#',

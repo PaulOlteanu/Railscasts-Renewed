@@ -10,6 +10,13 @@ module.exports = [
         }
     },
     {
+        name: 'js func parameter',
+        scope: ['variable.parameter.function.js'],
+        settings: {
+            foreground: colors['red']
+        }
+    },
+    {
         name: 'CoffeeScript Function Argument',
         scope: ['meta.arguments.coffee', 'variable.parameter.function.coffee'],
         settings: {
