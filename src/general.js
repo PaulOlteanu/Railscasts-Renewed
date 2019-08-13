@@ -150,7 +150,7 @@ module.exports = {
       scope:
         'variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node',
       settings: {
-        foreground: colors['red']
+        foreground: colors['blue']
       }
     },
     {

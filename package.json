@@ -2,7 +2,7 @@
   "name": "theme-railscasts",
   "displayName": "Railscasts Renewed",
   "description": "Railscasts Colour Theme",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "publisher": "PaulOlteanu",
   "bugs": {
     "url": "https://github.com/PaulOlteanu/Railscasts-Renewed/issues"
@@ -27,6 +27,7 @@
       }
     ]
   },
+  "icon": "icon.png",
   "scripts": {
     "build": "node build.js"
   },
