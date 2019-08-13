@@ -1,22 +1,39 @@
 {
-    "name": "theme-railscasts",
-    "displayName": "Railscasts-Renewed",
-    "description": "Railscasts Colour Theme",
-    "version": "3.0.0",
-    "publisher": "PaulOlteanu",
-    "engines": {
-        "vscode": "^1.18.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Railscasts-New",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Railscasts-New-color-theme.json"
-            }
-        ]
-    }
+  "name": "theme-railscasts",
+  "displayName": "Railscasts Renewed",
+  "description": "Railscasts Colour Theme",
+  "version": "4.0.0",
+  "publisher": "PaulOlteanu",
+  "bugs": {
+    "url": "https://github.com/PaulOlteanu/Railscasts-Renewed/issues"
+  },
+  "homepage": "https://github.com/PaulOlteanu/Railscasts-Renewed",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulOlteanu/Railscasts-Renewed"
+  },
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Railscasts Renewed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Railscasts-Renewed.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": [
+    "railscasts",
+    "railscasts renewed",
+    "renewed",
+    "theme"
+  ]
 }
