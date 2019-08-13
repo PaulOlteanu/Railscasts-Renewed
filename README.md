@@ -1,3 +1,3 @@
-# RailsCast Syntax Theme
+# Railscasts Syntax Theme
 
-Syntax theme based on the original railscast theme
+Syntax theme using colours from the railscasts palette

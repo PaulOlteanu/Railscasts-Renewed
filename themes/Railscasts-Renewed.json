@@ -1345,6 +1345,13 @@
       }
     },
     {
+      "name": "variable.language.rust",
+      "scope": "variable.language.rust",
+      "settings": {
+        "foreground": "#B6B3EB"
+      }
+    },
+    {
       "name": "storage.type.core.rust",
       "scope": "storage.type.core.rust",
       "settings": {
@@ -1352,17 +1359,17 @@
       }
     },
     {
-      "name": "keyword.operator.misc.rust",
-      "scope": "keyword.operator.misc.rust",
-      "settings": {
-        "foreground": "#519F50"
-      }
-    },
-    {
       "name": "keyword.operator.sigil.rust",
       "scope": "keyword.operator.sigil.rust",
       "settings": {
         "foreground": "#B6B3EB"
+      }
+    },
+    {
+      "name": "keyword.operator.misc.rust",
+      "scope": "keyword.operator.misc.rust",
+      "settings": {
+        "foreground": "#519F50"
       }
     },
     {
@@ -1376,14 +1383,7 @@
       "name": "entity.name.lifetime.rust",
       "scope": "entity.name.lifetime.rust",
       "settings": {
-        "foreground": "#FFC66D"
-      }
-    },
-    {
-      "name": "variable.language.rust",
-      "scope": "variable.language.rust",
-      "settings": {
-        "foreground": "#B6B3EB"
+        "foreground": "#519F50"
       }
     }
   ]

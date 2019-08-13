@@ -40,7 +40,7 @@ module.exports = [
         name: 'entity.name.lifetime.rust',
         scope: 'entity.name.lifetime.rust',
         settings: {
-            foreground: colors['yellow']
+            foreground: colors['dark-green']
         }
     }
 ]
